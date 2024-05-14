@@ -1,0 +1,57 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #282c34;
+ }
+ 
+ .App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #282c34;
+ }
+ 
+ .Contact, .About, .Testimonial {
+  margin: 2rem 0;
+ }
+ 
+ .Contact p, .About p, .Testimonial p {
+  margin: 1rem 0;
+ }
+ 
+ .Contact ul {
+  list-style-type: none;
+  padding: 0;
+ }
+ 
+ .Contact li {
+  display: inline;
+  margin-right: 1rem;
+ }
+ .Gallery-item {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  background-color: black;
+ }
+ 
+ .Gallery-item.cadre1 {
+  background-color: red;
+ }
+ 
+ .Gallery-item.cadre2 {
+  background-color: green;
+ }
+ 
+ .Gallery-item.cadre3 {
+  background-color: blue;
+ }
+ 
+ .Gallery-item.cadre4 {
+  background-color: yellow;
+ }
